@@ -1,4 +1,8 @@
-# DESAFIO STORM.
+# DESAFIO STORM
+
+[![Build Status](https://travis-ci.com/rodrigoneal/desafio_storm.svg?branch=master)](https://travis-ci.com/rodrigoneal/desafio_storm)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1c0c887dea1648b2973cc2d541126edb)](https://www.codacy.com/gh/rodrigoneal/desafio_storm/dashboard?utm_source=github.com&utm_medium=referral&utm_content=rodrigoneal/desafio_storm&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/1c0c887dea1648b2973cc2d541126edb)](https://www.codacy.com/gh/rodrigoneal/desafio_storm/dashboard?utm_source=github.com&utm_medium=referral&utm_content=rodrigoneal/desafio_storm&utm_campaign=Badge_Coverage)
 
 ## Como usar
 
