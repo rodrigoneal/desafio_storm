@@ -15,8 +15,3 @@ def index_value(nums: List[int], alvo: int):
             # Verifica se o index de nums no index i e v == alvo
             if nums[i] + nums[v] == alvo:
                 return [i, v]
-
-
-if __name__ == "__main__":
-    a = index_value([2, 7, 11, 15], 9)
-    print(a)
