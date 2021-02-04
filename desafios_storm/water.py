@@ -5,8 +5,10 @@ Calcula o maximo de agua da chuva que pode ser armazenado entre duas elevações
 :date:1/28/2021
 """
 
+from typing import List
 
-def amount_water(array):
+
+def amount_water(array: List[int]):
     """
     Percorre a lista da esquerda pra direita e pega o maior valor do array no indice.
 
@@ -57,8 +59,3 @@ def amount_water(array):
         agua += min(esquerda[index], direita[index]) - array[index]
 
     return agua
-
-
-if __name__ == "__main__":
-    a = amount_water([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1])
-    print(a)
