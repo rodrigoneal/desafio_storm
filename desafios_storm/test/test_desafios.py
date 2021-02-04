@@ -16,6 +16,12 @@ class Test_desafios_storm(unittest.TestCase):
         alvo = 9
         self.assertEqual(index_value(nums, alvo), [0, 1])
 
+    def test_if_index_value_retorna_0_2(self):
+        """Testa a funcao index_value retorna [0,1]."""
+        nums = [2, 7, 11, 15]
+        alvo = 13
+        self.assertEqual(index_value(nums, alvo), [0, 2])
+
     def test_if_index_value_retorna_1_3(self):
         """Testa a funcao index_value retorna [1,3]."""
         nums = [2, 7, 11, 15]
