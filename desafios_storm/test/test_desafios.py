@@ -39,6 +39,16 @@ class Test_desafios_storm(unittest.TestCase):
         bracket = "{[()]}"
         self.assertEqual(bracket_balanced(bracket), True)
 
+    def test_se_bracket_balanced_retorna_false_com_lista_vazio(self):
+        """Testa se a funcao bracket_balanced retorna falso com a lista vazia."""
+        bracket = [""]
+        self.assertEqual(bracket_balanced(bracket), False)
+
+    def test_se_bracket_balanced_retorna_false_com_bracket_trocado(self):
+        """Testa se a funcao bracket_balanced retorna False passando um bracket de fechamento no começo."""
+        bracket = ")]}"
+        self.assertEqual(bracket_balanced(bracket), False)
+
     def test_se_bracket_balanced_retorna_false(self):
         """Testa se a funcao bracket_balanced retorna False."""
         bracket = "{[(])}"
