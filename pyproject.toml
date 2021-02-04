@@ -1,8 +1,8 @@
 [build-system]
-requires = ["flask>=1.1.2", "flask-restful>=0.3.8"]
+requires = ["setuptools", "wheel"]
 
 [tool.black]
-line-length = 88
+line-length = 80
 include = '\.pyi?$'
 exclude = '''
 /(
