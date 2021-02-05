@@ -2,5 +2,12 @@ language: python
 
 python: 3.9
 
+env:
+  - CODACY_PROJECT_TOKEN = codacy
+
 script:
-  - python -m unittest desafios_storm.test.test_desafios
+  - coverage run -m unittest discover
+
+after_success:
+  - coverage xml
+  - python-codacy-coverage -r coverage.xml
